@@ -1,0 +1,30 @@
+.container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  height:100vh;
+  gap: 20px;
+}
+.one{
+  background-color: aqua;
+  display:flex;                             /*----> Using Flex property(flex,justify-content, align-items) in grid to make all text or image aligned at center*/ 
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+  grid-column-start:2;    /*grid-column-start:2; means it starts with second container leaving first box space(from top left)*/
+  grid-column-end:-1;     /*grid-column-end:-1;means it starts with second container leaving first box space(from bottom right)*/
+}
+.two{
+  background-color: Red;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+}
+.three{
+  background-color: greenyellow;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+}

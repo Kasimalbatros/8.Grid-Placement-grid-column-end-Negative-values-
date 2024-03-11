@@ -1,0 +1,12 @@
+grid-column-start:2;   
+
+ /*grid-column-start:2; means it starts with second container leaving first 
+box space(from top left)*/
+  
+
+
+
+grid-column-end:-1;    
+
+ /*grid-column-end:-1;means it starts with second container leaving first 
+box space(from bottom right)*/
